@@ -3,4 +3,4 @@
 test
 
 ## Major
-added env
+added repo secret
