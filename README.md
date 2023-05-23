@@ -6,3 +6,4 @@ test
 added repo secret
 
 ## Added develop branch
+minor update
