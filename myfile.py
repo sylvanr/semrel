@@ -1,25 +1,3 @@
-IATI_DATE_FIELDS = [
-    'activity-date',
-    'budget.period-start',
-    'budget.period-end',
-    'planned-disbursement.period-start',
-    'planned-disbursement.period-end',
-    'transaction.transaction-date',
-    'document-link.document-date',
-    'result.document-link.document-date',
-    'result.indicator.document-link.document-date',
-    'result.indicator.baseline',
-    'result.indicator.baseline.document-link.document-date',
-    'result.indicator.period.period-start',
-    'result.indicator.period.period-end',
-    'result.indicator.period.target.document-link.document-date',
-    'result.indicator.period.actual.document-link.document-date',
-    'crs-add.loan-terms.commitment-date',
-    'crs-add.loan-terms.repayment-first-date',
-    'crs-add.loan-terms.repayment-final-date',
-]
-
-
 def add_date_quarter_fields(data):
     """
     Requested by FCDO. Multi valued fields.
